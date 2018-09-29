@@ -1,3 +1,4 @@
+sudo apt-get install -y software-properties-common
 sudo apt-get update
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
