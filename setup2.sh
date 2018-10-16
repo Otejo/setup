@@ -1,5 +1,6 @@
 #!/bin/sh +x
 #libtool, pkg-config, build-essential, autoconf, and automake
+sudo apt-get install -y vim
 sudo apt-get install -y software-properties-common
 sudo apt-get install -y buil-essential
 sudo apt-get install -y libtool
