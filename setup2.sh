@@ -12,13 +12,10 @@ sudo apt-get install -y uuid-dev
 
 sudo apt-get install -y git
 
-cd ~/
-git clone https://github.com/creationix/nvm.git .nvm
-cd ~/.nvm
-git checkout v0.33.11
-./nvm.sh
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 
 # Download zeromq
 # Ref http://zeromq.org/intro:get-the-software
