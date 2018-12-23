@@ -6,7 +6,8 @@ sudo apt-get install -y buil-essential
 sudo apt-get install -y libtool
 sudo apt-get install -y autoconf
 sudo apt-get install -y automake
-
+sudo apt-get install -y curl
+sudo apt-get install -y wget
 sudo apt-get update
 sudo apt-get install -y uuid-dev
 
