@@ -2,7 +2,7 @@
 #libtool, pkg-config, build-essential, autoconf, and automake
 sudo apt-get install -y vim
 sudo apt-get install -y software-properties-common
-sudo apt-get install -y buil-essential
+sudo apt-get install -y build-essential
 sudo apt-get install -y libtool
 sudo apt-get install -y autoconf
 sudo apt-get install -y automake
