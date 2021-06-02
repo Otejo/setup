@@ -57,3 +57,9 @@ echo #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 echo #[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 echo https://www.npmjs.com/package/insight-lite-api
 
+
+
+##################################################
+###############curl -sL https://firebase.tools | bash
+
+
